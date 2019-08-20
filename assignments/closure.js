@@ -4,16 +4,19 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
-function bestDoggo(firstLastName, lastLastName) {
-    var nameBork = "Beans";
+function bestDoggo() {
+    let doggoName = "Beans";
 
-    function herHighness() {
-        console.log(nameBork + " " + firstLastName + " " + lastLastName);
-    }
-    return herHighness();
+    function herHighness(firstLastName, lastLastName) {
+        return `${doggoName} ${firstLastName} ${lastLastName}`;
+    };
+    return herHighness;
 }
 
-bestDoggo("Payonk", "Silva");
+const bork = bestDoggo();
+console.log(bork("Payonk", "Silva"))
+
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
