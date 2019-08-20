@@ -96,7 +96,7 @@ console.log(ticketPriceTotal);
 /*Problem 1
 Runners need to pick up bibs and to do so organizers are separating booths by alphabetical order. List all last names in alphabetical order.
 */
-let lastNames = runners.
+
 
 /*Problem 2
 Organizers need a list of all the companies participating for ads, make a list with all of them.
